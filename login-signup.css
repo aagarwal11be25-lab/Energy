@@ -1,0 +1,87 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    font-family: 'Instrument Serif', serif;
+    background-color: #f5efe6; /* The main page's light brown */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    
+    /* Center the form in the middle of the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Use 90vh to account for padding */
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 400px; /* Set a max-width for the form */
+    text-align: center;
+}
+
+.form-container h1 {
+    color: #4a3b32; /* Dark brown from your top bar */
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align labels to the left */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Important for 100% width */
+    font-family: 'Instrument Serif', serif; /* Use the correct font */
+    font-size: 1rem;
+}
+
+/* This is the main button for Login/Sign Up */
+.form-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #E27B58; /* Warm orange */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Instrument Serif', serif;
+}
+
+.form-button:hover {
+    background-color: #c96a4a; /* Darker orange */
+}
+
+/* "Go Back" link */
+.back-link {
+    font-size: 1rem;
+    color: #E27B58;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block; /* Make it a block to add space above */
+    transition: text-decoration 0.2s ease;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

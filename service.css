@@ -1,0 +1,42 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* This styles the "Service Coming Soon" pages */
+body {
+    font-family: 'Instrument Serif', serif; /* <-- FONT CHANGED HERE */
+    background-color: #f5efe6; /* The main page's light brown */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    
+    /* This centers the content on the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.service-container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.service-container h1 {
+    font-size: 2.5rem;
+    color: #4a3b32; /* Using the dark brown from your top bar */
+    margin-bottom: 20px;
+}
+
+/* This styles the "Go Back" link */
+.back-link {
+    font-size: 1.1rem;
+    color: #E27B58; /* Using the warm orange from your service icons */
+    text-decoration: none;
+    font-weight: 500;
+    transition: text-decoration 0.2s ease;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
